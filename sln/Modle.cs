@@ -23,6 +23,9 @@ public class Modle
                 goalChars[i] = ' ';
                 continue;
             }
+        }
+        for (int i = 0; i < 5; i++)
+        {
             if (!result[i].Item2.Equals('\0'))
             {
                 continue;
