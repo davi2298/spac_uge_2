@@ -52,7 +52,7 @@ public class Controler
             veiw.ShowDone();
             return;
         }
-        if (numGuesses < 6)
+        if (numGuesses < 7)
         {
             veiw.ShowReady();
             return;

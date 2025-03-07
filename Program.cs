@@ -1,6 +1,7 @@
 ﻿class Program
 {
     private static string path = $"./wordle_ord.txt";
+
     public static void Main(string[] args)
     {
         try
@@ -9,8 +10,8 @@
             Veiw veiw = new();
             Modle modle = new();
             Controler controler = new(modle, veiw, goal);
+            // Console.WriteLine(goal);
             veiw.ShowReady();
-            Console.WriteLine(goal);
             while (!controler.IsDone)
             {
                 controler.MakeGuess();
