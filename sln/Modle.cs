@@ -4,7 +4,8 @@ public class Modle
 
 
     /// <summary>
-    /// 
+    /// Takes a guess in for of a string and return a list of color and char pairs that, 
+    /// reflect what chars were in the goal and if they were placed correctly
     /// </summary>
     /// <param name="guess"></param>
     /// <returns>An array with the color char pair of the guess</returns>

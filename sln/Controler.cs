@@ -12,6 +12,10 @@ public class Controler
         this.modle.Goal = goal;
         this.veiw = veiw;
     }
+    /// <summary>
+    /// Method that waits for the next user input, 
+    /// hads it over to the modle to analyse then takes that analasys and makes veiw desplay it.
+    /// </summary>
     public void MakeGuess()
     {
         numGuesses++;
