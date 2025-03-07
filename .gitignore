@@ -1,0 +1,8 @@
+kravspec.md
+kravspec.docx
+.vscode
+obj
+*.tmp
+*.sln
+bin
+.vscode
